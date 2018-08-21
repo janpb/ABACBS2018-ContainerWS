@@ -1,3 +1,5 @@
+Overview
+
 Docker containers allow you to test and distribute simple and complex pipelines.
 You can write pipelines with different dependencies without the need to install
 them on your machine. Users can then pull your pipelines or tools and
@@ -9,3 +11,28 @@ The workshop will introduce you to Docker Containers and Singularity Images. You
 will learn how to create, run, and distribute them using typical biological
 tasks as examples. Participants are invited to bring their own pipelines they
 wish to "Dockerize" in the last part of the workshop.
+
+Target Audience
+
+You have written an amazing analysis pipeline which depends on your own and
+external libraries. You incorporated external software for specific
+steps and the  pipeline requires the newest version of your favorite
+programming language due to THIS feature. You spent a day to write and test the
+installation instructions on your own machine. A few days later, you discover
+that only few users read the README, several complain about weird dependencies,
+others cannot install dependencies due to different reasons. You consider
+to skip the Reviewer comments and discover that your cluster got updated and you
+have to fix all dependencies for your own pipelines as well as for external
+software.
+
+If any of these scenarios sounds familiar to you, this could be your workshop.
+
+What to bring
+
+Laptop with administrative privileges. Installed Docker [0] and Singularity [1]
+for your OS. Assuming: experience with the command-line of your OS (the
+workshop will use examples using the Unix command-line), familiarity with git
+and ssh.
+
+[0]: https://store.docker.com/search?type=edition&offering=community
+[1]: https://singularity.lbl.gov/all-releases

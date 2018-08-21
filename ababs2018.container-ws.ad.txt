@@ -1,0 +1,20 @@
+You have written an amazing analysis pipeline which depends on your own and
+external libraries. In addition, you incorporated external tools for specific
+steps. Lastly, the pipeline requires the newest version of your favorite
+programming language. You spent a day to write and test the installation
+instructions on your own machine. A few days later, you figure that only few
+users read the README, several complain about weird dependencies, and numerous
+cannot install dependencies due to different reasons. You wish you haven't read
+the comments from your reviewers.
+
+Docker containers allow you to test and distribute simple and complex pipelines.
+You can write pipelines with different dependencies without the need to install
+them on your machine. Analogous, users can pull your pipelines or tools and
+start using them without having to worry about dependencies or adventurous
+installation instructions. If your tool or pipeline can run on a cluster, you
+can deploy them as Singularity images.
+
+The workshop will introduce you to Docker Containers and Singularity Images. You
+will learn how to create, run, and distribute them using typical biological
+tasks as examples. Participants are invited to bring their own pipelines they
+can
